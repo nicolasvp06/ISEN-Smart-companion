@@ -52,7 +52,7 @@ fun ISENSmartCompanionTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = kotlin.text.Typography,
         content = content
     )
 }

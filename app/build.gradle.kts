@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "fr.isen.pissavinvernet.isensmartcompanion"
+    namespace = "fr.isen.pissavinvernet.ISENSmartCompanion"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "fr.isen.pissavinvernet.isensmartcompanion"
+        applicationId = "fr.isen.pissavinvernet.ISENSmartCompanion"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -49,6 +49,14 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.navigation.compose)
+    implementation (libs.gson)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
