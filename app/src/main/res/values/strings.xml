@@ -1,8 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ISENSmartCompanion</string>
-    <string name="isen_logo">Logo Isen</string>
-    <string name="bottom_navbar_home">Home</string>
-    <string name="bottom_navbar_events">Evenements</string>
-    <string name="bottom_navbar_history">Historique</string>
-    <string name="title_activity_event_detail">EventDetailActivity</string>
+    <!-- Déclaration de la ressource pour le nom de l'application -->
+    <item type="string" name="app_name">ISENSmartCompanion</item>
 </resources>

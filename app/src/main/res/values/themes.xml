@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Définition du thème principal pour l'application ISENSmartCompanion -->
 <resources>
 
-    <style name="Theme.ISENSmartCompanion" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Style personnalisé utilisant le thème Material Light sans ActionBar -->
+    <style
+        parent="android:Theme.Material.Light.NoActionBar"
+        name="Theme.ISENSmartCompanion">
+        <!-- Aucun attribut supplémentaire n'est défini ici -->
+    </style>
+
 </resources>
